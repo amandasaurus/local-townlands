@@ -1,0 +1,3 @@
+[submodule "osm-irish-townlands"]
+	path = osm-irish-townlands
+	url = https://github.com/rory/osm-irish-townlands.git
