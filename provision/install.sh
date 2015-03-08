@@ -39,3 +39,8 @@ restart django
 # We don't need these running and they take up memory
 sudo /etc/init.d/chef-client stop
 sudo /etc/init.d/puppet stop
+
+# make some swap space. better that it swaps than gets OOM killed
+fallocate -l 5G /swap
+mkswap /swap
+swapon /swap
