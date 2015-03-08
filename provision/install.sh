@@ -30,7 +30,7 @@ pip install -e /vagrant/osm-irish-townlands/
 cd /vagrant/djangoproject
 
 # set up database
-python manage.py syncdb
+python manage.py syncdb --noinput
 python manage.py migrate
 
 # ensure it's running
