@@ -1,0 +1,7 @@
+Django==1.6.5
+argparse==1.2.1
+wsgiref==0.1.2
+South==0.8.4
+psycopg2==2.5.3
+iso8601==0.1.10
+requests==2.4.3
